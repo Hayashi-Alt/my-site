@@ -1,0 +1,78 @@
+header {
+	color: #FFFFFF;
+	background: #00417d;
+	padding: 0 0 140px;
+	background: url(Img/Background.png);
+}
+
+@font-face {
+	font-family: Pompadur;
+	src: url('Files/Comfortaa-VariableFont_wght.ttf');
+}
+
+body {
+	font-family: Pompadur;
+	margin: 0;
+	font-size: 19px;
+}
+
+a {
+	color: #288be6;
+}
+
+footer {
+	color: #FFFFFF;
+	background: #00417d;
+	padding: 10px 0 40px;
+}
+
+.button {
+  padding: 6px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.line {
+	text-indent: 40px;
+	margin-top: 1px;
+}
+
+#flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section {
+	text-align: center; 
+	font-size: 24px;
+	width: 600px;
+	margin: 0 auto;
+	padding: 50px 0 0;
+}
+
+.section-2 {
+	text-align: center; 
+	width: 600px;
+	margin: 0 auto;
+}
+
+.space {
+	padding: 80px 0 0;
+}
+
+.space-2 {
+	padding: 40px 0 0;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.vk {
+	padding-left: 25px;
+	background-image: url("Img/Icon-vk.svg");
+}
